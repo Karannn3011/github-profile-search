@@ -75,9 +75,9 @@ const SearchBar = () => {
             </div>
             <div className="flex flex-col gap-1 ml-6 md:ml-4">
               <h1 className="text-md md:text-xl font-[600] text-whitetext">
-                <a href={user.html_url} target="_blank">
+                
                   {user.login}
-                </a>
+               
               </h1>
               <h1 className="text-sm md:text-md text-graytext">
                 {user?.bio || <span className="italic opacity-80">No bio</span>}
